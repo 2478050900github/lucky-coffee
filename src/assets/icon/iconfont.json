@@ -1,0 +1,107 @@
+{
+  "id": "1913755",
+  "name": "myprj001",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12873984",
+      "name": "首页",
+      "font_class": "ziti",
+      "unicode": "fd02",
+      "unicode_decimal": 64770
+    },
+    {
+      "icon_id": "13566939",
+      "name": "外送",
+      "font_class": "waisong",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "11226105",
+      "name": "咖啡",
+      "font_class": "menu",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "14103278",
+      "name": "icon_瑞幸咖啡",
+      "font_class": "icon_luckin",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1621626",
+      "name": "喜欢",
+      "font_class": "like",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "15825136",
+      "name": "喜欢",
+      "font_class": "like_act",
+      "unicode": "e7dd",
+      "unicode_decimal": 59357
+    },
+    {
+      "icon_id": "6129293",
+      "name": "248好评、笑脸-线性",
+      "font_class": "my",
+      "unicode": "e7d9",
+      "unicode_decimal": 59353
+    },
+    {
+      "icon_id": "7463946",
+      "name": "确认取餐",
+      "font_class": "querenqucan",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "11370993",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "12250143",
+      "name": "首页-门店数",
+      "font_class": "shouye",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "15691818",
+      "name": "饮料",
+      "font_class": "yinliao-copy",
+      "unicode": "e7db",
+      "unicode_decimal": 59355
+    },
+    {
+      "icon_id": "15691826",
+      "name": "订单",
+      "font_class": "dingdan--copy",
+      "unicode": "e7dc",
+      "unicode_decimal": 59356
+    },
+    {
+      "icon_id": "15691799",
+      "name": "首页-门店数",
+      "font_class": "shouye-mendianshu-copy",
+      "unicode": "e7da",
+      "unicode_decimal": 59354
+    },
+    {
+      "icon_id": "5172355",
+      "name": "奶茶",
+      "font_class": "naicha",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

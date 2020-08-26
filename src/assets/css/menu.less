@@ -1,0 +1,69 @@
+.diancan {
+    position: fixed;
+    top     : 0;
+    left    : 0;
+    right   : 0;
+    height  : calc(100% - 1.5rem);
+
+    .dingw {
+        font-size     : 18px;
+        line-height   : 50px;
+        padding       : 5px;
+        overflow      : hidden;
+        background    : lightblue;
+        box-sizing    : border-box;
+    }
+
+.menu-content{
+    .van-tabs__line {
+height:0;
+    }
+    .van-tab--active {
+        color:white;
+        font-size:20px;
+background: #0c34ba;
+        border-radius:10px;
+    }
+    .commodity-list {
+        position     : fixed;
+        top          : 42%;
+        width     : 100%;
+        height       : 340px;
+        overflow-y   : auto;
+        background   : lightgray;
+
+        .van-card {
+            position           : relative;
+            box-sizing         : border-box;
+            font-size          :16px;
+            background-color   : white;
+
+            .van-card__title {
+                height:25px;
+                font-weight: bold;
+                line-height: 25px;
+            }
+
+            .van-card__bottom {
+                line-height: 25px;
+
+                .van-card__price {
+                    display    : inline-block;
+                    color      : tomato;
+                    font-weight: bold;
+                    font-size  :14px;
+                }
+            }
+
+            .van-button--mini {
+                width        : 80px;
+                height       :26px;
+                color        : white;
+                font-size    : 16px;
+                border-radius: 20px;
+                background   :  #0c34ba;
+            }
+        }
+    }
+}
+}

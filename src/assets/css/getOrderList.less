@@ -1,0 +1,72 @@
+.get-order-list {
+    position: fixed;
+    top     : 0;
+    left    : 0;
+    right   : 0;
+    height  : 100%;
+
+    .van-tabs__content {
+        max-height: 575px;
+        overflow-y: auto;
+
+        .order-card {
+            margin          : 10px 12px;
+            padding         : 10px 0;
+            border-radius   : 10px;
+            background-color: #fafafa;
+
+            .order-item-title {
+                color  : #999;
+                height : 20px;
+                padding: 0 10px 10px;
+
+                .order-no {
+                    font-size    : 12px;
+                    height       : 25px;
+                    line-height  : 20px;
+                    border-bottom: 1px solid #999;
+                }
+            }
+
+            .van-card:not(:first-child) {
+                margin-top: 0;
+            }
+
+            .order-total {
+                padding      : 0 10px;
+                margin-top   : 7px;
+                line-height  : 40px;
+                border-bottom: 1px solid #999;
+
+                .total-count {
+                    font-size: 12px;
+                    color    : #999;
+                }
+
+                .total-price {
+                    color      : darkgreen;
+                    font-weight: bold;
+                    font-size  : 16px;
+                }
+            }
+        }
+
+        .order-card:not(:first-child) {
+            margin-top: 20px;
+        }
+
+        .delete {
+            font-size  : 18px;
+            line-height: 20px;
+            color      : #666;
+            margin-left: 10px;
+            padding-top: 1px;
+        }
+
+        .order-date {
+            line-height: 40px;
+            color      : #999;
+            font-size  : 12px;
+        }
+    }
+}

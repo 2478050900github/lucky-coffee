@@ -1,0 +1,63 @@
+.my {
+    position  : fixed;
+    top       : 0;
+    left      : 0;
+    right     : 0;
+    height    : calc(100% - 1.5rem);
+    background: rgb(240, 233, 233);
+
+    .self-top {
+        height    : 180px;
+        // background: yellow;
+
+        .login-tip {
+            background    : gray;
+            height        : 100%;
+            text-align    : center;
+            line-height   : 150px;
+            font-size     : 25px;
+            font-weight   : bolder;
+            color         : white;
+            letter-spacing: 3px;
+        }
+
+        .my-top {
+            background: white;
+            padding   : 25px;
+            background: linear-gradient(to right, #bfebb5, #7adf76);
+
+            .my-name {
+                .van-image {
+                    background   : yellow;
+                    margin-bottom: 20px;
+                }
+
+                .myname {
+                    position     : absolute;
+                    top          : 8%;
+                    left         : 30%;
+                    font-weight  : bold;
+                    font-size    : 30px;
+                    max-width    : 200px;
+                    text-overflow: ellipsis;
+                    white-space  : nowrap;
+                    overflow     : hidden;
+                }
+            }
+
+            .self-text {
+                max-width    : 300px;
+                padding      : 1px 10px;
+                border-radius: 10px;
+                background   : white;
+                box-sizing   : border-box;
+                font-size    : 16px;
+            }
+
+        }
+    }
+
+    .my-cell {
+        margin-top: 1rem;
+    }
+}
